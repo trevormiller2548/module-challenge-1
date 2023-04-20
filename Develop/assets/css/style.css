@@ -1,3 +1,5 @@
+/*I consolidated the code by laying it out in order. Here's the order of the sections: general, header and nav, hero, content and footer section.
+/*base style*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,27 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*header and nav section*/
 
 .header {
     padding: 20px;
@@ -41,14 +64,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/*hero section*/
 
 .hero {
     height: 800px;
@@ -59,15 +75,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/*content section*/
 
 .content {
     width: 75%;
@@ -187,6 +195,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*footer section*/
 
 .footer {
     padding: 30px;
